@@ -1,0 +1,13 @@
+Options -MultiViews
+RewriteEngine on
+Options -Indexes
+
+RewriteRule ^assets - [L,NC]
+RewriteRule ^midias - [L,NC]
+RewriteRule ^View/site - [L,NC]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ loader.php?rota=$1 [L,QSA]
+RewriteRule ^(.*)$ loader.php?rota=index [L,QSA]

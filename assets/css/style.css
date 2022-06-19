@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.altura{
+    height: 35px;
+}
+
+.logo{
+    padding-top: 2.5%;
+}
+
+.content-wrapper {
+    margin-top: 40px;
+    min-height: 680px !important;
+    padding-bottom: 60px;
+}
+
+.branco{
+    color: #fff;
+}
+
+.back{
+    background-color: #222322;
+    margin-top: -22px;
+}
+.titulo{
+    font-size: 2em;
+    font-family: verdana, sans-serif;
+    color: #ffffff;
+}
+
+footer {
+    padding: 10px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #8a1818;
+    margin-bottom: -15px;
+}
+
+footer a, footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+//Botão Bootstrap
+.btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.btn-black {
+    background: #444;
+    color: #fff;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+//FIM Botão Bootstrap
